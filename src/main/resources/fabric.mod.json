@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "kindledthings",
+	"version": "${version}",
+	"name": "Kindled Things",
+	"description": "I like little mobs",
+	"authors": [
+		"lemokodev"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT-License",
+	"icon": "assets/kindledthings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"lemokodev.kindledthings.KindledThings"
+		],
+		"fabric-datagen": [
+			"lemokodev.kindledthings.KindledThingsDataGenerator"
+		]
+	},
+	"mixins": [
+		"kindledthings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
