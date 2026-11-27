@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kindledthings:block/test_block"
+    }
+  }
+}

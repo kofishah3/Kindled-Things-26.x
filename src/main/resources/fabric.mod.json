@@ -18,6 +18,9 @@
 		"main": [
 			"lemokodev.kindledthings.KindledThings"
 		],
+		"client": [
+			"lemokodev.kindledthings.KindledThingsClient"
+		],
 		"fabric-datagen": [
 			"lemokodev.kindledthings.KindledThingsDataGenerator"
 		]
