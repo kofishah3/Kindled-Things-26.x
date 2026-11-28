@@ -7,4 +7,6 @@ import net.minecraft.resources.Identifier;
 public class ModModelLayerLocations {
     public static final ModelLayerLocation COPPER_BUDDY =
             new ModelLayerLocation(Identifier.fromNamespaceAndPath(KindledThings.MOD_ID, "copper_buddy"), "main");
+    public static final ModelLayerLocation SUNFISH =
+            new ModelLayerLocation(Identifier.fromNamespaceAndPath(KindledThings.MOD_ID, "sunfish"), "main");
 }

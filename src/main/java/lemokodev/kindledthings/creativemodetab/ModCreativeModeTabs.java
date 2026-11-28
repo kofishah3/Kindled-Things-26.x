@@ -18,8 +18,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.kindledthings.kindled_things_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.COPPERBUDDY_SPAWNEGG);
-                        output.accept(ModItems.COPPER_COFFER);
                         output.accept(ModItems.SUNFISH_SPAWNEGG);
+                        output.accept(ModItems.COPPER_COFFER);
+                        output.accept(ModItems.LUCKY_CLOVER);
                     }).build());
 
     public static final CreativeModeTab KINDLED_THINGS_BLOCKS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,

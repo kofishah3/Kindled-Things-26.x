@@ -26,5 +26,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.COPPERBUDDY_SPAWNEGG, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.COPPER_COFFER, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.SUNFISH_SPAWNEGG, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.LUCKY_CLOVER, ModelTemplates.FLAT_ITEM);
     }
 }

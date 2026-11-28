@@ -4,6 +4,7 @@ import lemokodev.kindledthings.block.ModBlocks;
 import lemokodev.kindledthings.creativemodetab.ModCreativeModeTabs;
 import lemokodev.kindledthings.entity.ModEntities;
 import lemokodev.kindledthings.entity.custom.CopperBuddyEntity;
+import lemokodev.kindledthings.entity.custom.SunFishEntity;
 import lemokodev.kindledthings.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -25,6 +26,7 @@ public class KindledThings implements ModInitializer {
 		ModEntities.registerModEntities();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.COPPER_BUDDY, CopperBuddyEntity.createAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.SUNFISH, SunFishEntity.createAttributes());
 	}
 
 	public static Identifier id(String path) {
